@@ -277,10 +277,8 @@ static void runEdgeCaseTests() {
 // Main
 // ─────────────────────────────────────────────────────────────────────────────
 int main() {
-    std::cout << "╔══════════════════════════════════════════════════════════════════════╗\n";
-    std::cout << "║   INTEREST RATE CURVE CONSTRUCTION SYSTEM (IRCCS) — v1.0            ║\n";
-    std::cout << "║   Production-Grade Bootstrapper with Multi-Curve Framework          ║\n";
-    std::cout << "╚══════════════════════════════════════════════════════════════════════╝\n";
+    std::cout << "INTEREST RATE CURVE CONSTRUCTION SYSTEM (IRCCS) — v1.0\n";
+    std::cout << "Production-Grade Bootstrapper with Multi-Curve Framework\n";
 
     // ── Step 1: Load market data ─────────────────────────────────────────────
     printHeader("STEP 1: MARKET DATA LOADING");
